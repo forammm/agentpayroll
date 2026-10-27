@@ -91,13 +91,6 @@ npm run lint
 npx tsc -b
 ```
 
-## Known gap: no authentication
-
-There is no login or session system anywhere in this app. Every API call is attributed to a single fixed demo user id (see `backend/scripts/seed_demo_user.py` and `src/lib/api.ts`'s `DEMO_USER_ID`). The backend does enforce per-record ownership checks wherever a request references another id (a timesheet, payslip, or verification result by its own id) - so one `user_id` cannot read or modify another's records - but nothing stops a client from simply claiming a different `user_id`, since there is no credential proving who is actually calling. **This is a production-readiness gap, not a secured multi-tenant system** - treat it as such before deploying anywhere a second real user might show up. `src/lib/api.ts` already has a single place (`authHeaders()`) where a bearer token would be attached once real auth exists.
-=======
-Backend (FastAPI/PostgreSQL foundation lives in [`backend/`](backend/README.md)):
->>>>>>> efb7211f40e2bc47538eb9cb152a6bf59f8d270b
-
 ```bash
 cd backend
 pip install -r requirements.txt

@@ -1,1 +1,21 @@
 node_modules
+dist
+*.tsbuildinfo
+.env
+.env.local
+
+# MCP server config (local/machine-specific)
+.mcp.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Uploaded payslip files (private, never committed)
+backend/storage/
+.pytest_cache/
+
+# Local SQLite dev database (used when no Postgres is available locally)
+*.db

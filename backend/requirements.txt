@@ -6,3 +6,12 @@ psycopg[binary]>=3.2,<4.0
 pydantic>=2.10,<3.0
 pydantic-settings>=2.7,<3.0
 python-multipart>=0.0.20,<1.0
+
+# Payslip PDF extraction (Prompt 4)
+pymupdf>=1.24,<3.0
+pillow>=10.4,<14.0
+pytesseract>=0.3.10,<1.0
+
+# LangGraph verification workflow (Prompt 5)
+langgraph>=1.2,<2.0
+anthropic>=2.1,<3.0

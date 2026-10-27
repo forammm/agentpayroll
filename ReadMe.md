@@ -75,8 +75,6 @@ cp .env.example .env   # defaults already point at http://localhost:8000/api/v1
 npm run dev
 ```
 
-<<<<<<< HEAD
-The backend must be running (see `backend/README.md`) and its CORS `PAYGUARD_FRONTEND_ORIGIN` must match wherever Vite is actually serving from (`http://localhost:5173` by default - note some environments bind Vite to the IPv6 loopback `::1` rather than `127.0.0.1`; use `localhost` if `127.0.0.1` doesn't connect).
 
 ## Testing
 

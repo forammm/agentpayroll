@@ -96,9 +96,6 @@ cp .env.example .env
 uvicorn app.main:app --reload
 ```
 
-<<<<<<< HEAD
-The FastAPI/PostgreSQL backend lives in [`backend/`](backend/README.md): payroll calculation engine, payslip PDF extraction (with OCR fallback), and the LangGraph verification workflow (deterministic calculation + LLM-generated explanation).
-=======
 ## Progress so far
 
 **Frontend (`src/App.tsx`)** — all 5 core screens are built and routed, currently on mock/hardcoded data:

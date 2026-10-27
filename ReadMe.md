@@ -1,10 +1,5 @@
 # Payguide (PayGuard AI)
 
-<<<<<<< HEAD
-A full-stack payroll verification app: React/TypeScript/Vite/Tailwind frontend, FastAPI/PostgreSQL backend, a LangGraph workflow that orchestrates a deterministic payroll calculator and an LLM explanation step.
-
-the frontend is connected to the real backend end-to-end - timesheets, payroll rules, payslip upload/extraction, verification, and the dashboard all read and write real data. See `backend/README.md` for backend setup, migrations, and the LangGraph workflow; this file covers the frontend.
-=======
 **Motto: Everyone gets paid equally — checking all the time, so you can track your pay.**
 
 Payguide is a payroll verification SaaS application. Employees (or their employers) upload timesheets and payroll rules, and Payguide automatically cross-checks them against uploaded payslips to catch underpayment, overpayment, and award/pay-rule violations — before they slip through unnoticed.

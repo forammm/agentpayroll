@@ -3,7 +3,7 @@
 <<<<<<< HEAD
 A full-stack payroll verification app: React/TypeScript/Vite/Tailwind frontend, FastAPI/PostgreSQL backend, a LangGraph workflow that orchestrates a deterministic payroll calculator and an LLM explanation step.
 
-As of Prompt 6, the frontend is connected to the real backend end-to-end - timesheets, payroll rules, payslip upload/extraction, verification, and the dashboard all read and write real data. See `backend/README.md` for backend setup, migrations, and the LangGraph workflow; this file covers the frontend.
+the frontend is connected to the real backend end-to-end - timesheets, payroll rules, payslip upload/extraction, verification, and the dashboard all read and write real data. See `backend/README.md` for backend setup, migrations, and the LangGraph workflow; this file covers the frontend.
 =======
 **Motto: Everyone gets paid equally — checking all the time, so you can track your pay.**
 
